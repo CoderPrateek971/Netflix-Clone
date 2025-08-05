@@ -1,0 +1,336 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: black;
+    color: white;
+  }
+  
+
+  .top {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    flex-wrap: wrap;
+  }
+  
+  .netflix {
+    width: 100px;
+  }
+  
+  .headbutton {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .English,
+  .Sign {
+    border: 2px solid white;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+
+  .membership {
+    background: url('bg.jpg') no-repeat center center/cover;
+    text-align: center;
+    padding: 100px 20px;
+  }
+  
+  .membership h1 {
+    font-size: 2.5rem;
+  }
+  
+  .membership h2 {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+  }
+  
+  .membership h3 {
+    font-size: 1.2rem;
+    margin: 1.5rem 0;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+  }
+  
+  .Email {
+    padding: 10px;
+    font-size: 16px;
+    width: 300px;
+    background: black;
+    border: 2px solid grey;
+    color: white;
+  }
+  
+  .Started {
+    background-color: red;
+    border: 1px solid white;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .started1 svg {
+    margin-left: 8px;
+    fill: white;
+  }
+  
+
+  .seperation {
+    background-color: grey;
+    height: 10px;
+    width: 100%;
+  }
+  
+
+  .content1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 60px 20px;
+    flex-wrap: wrap;
+  }
+  
+  .ENJOY {
+    font-size: 2rem;
+    padding-top: 0;
+    text-align: left;
+  }
+  
+  .ENJOY1 {
+    font-size: 1.2rem;
+    max-width: 40ch;
+    margin-top: 1rem;
+    text-align: left;
+  }
+  
+  .tv, .tv1 {
+    max-width: 100%;
+    z-index: 2;
+  }
+  
+  .vdo1,
+.vdo2 {
+  position: absolute;
+  top: 21%;     
+  left: 13.5%;  
+  width: 73%;   
+  height: 55%;  
+  z-index: 1;
+  pointer-events: none;
+}
+  
+
+  
+ 
+  .section2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 20px;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+  .tv-wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    z-index: 2;
+  }
+  
+  .tv-wrapper img {
+    width: 100%;
+    height: auto;
+    z-index: 2;
+    position: relative;
+  }
+  .section2 img {
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  .content2 {
+    max-width: 600px;
+  }
+  
+  .head {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .head-a, .head-b {
+    font-size: 1.2rem;
+  }
+  
+
+  .section3 {
+    padding: 60px 20px;
+  }
+  
+  .question h1 {
+    font-size: 2rem;
+    text-align: center;
+  }
+  
+  .QUESTIONS {
+    background-color: #2d2d2d;
+    margin: 20px auto;
+    max-width: 800px;
+    font-size: 1.2rem;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+
+  .final {
+    padding: 40px 20px;
+  }
+  
+  .call {
+    margin-bottom: 20px;
+    font-size: 14px;
+  }
+  
+  .links {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 16px;
+    max-width: 1000px;
+    margin: 0 auto;
+    font-size: 14px;
+  }
+  
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  
+  /* Tablets (768px - 1024px) */
+  @media screen and (max-width: 1024px) {
+    .content1, .section2 {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .vdo1, .vdo2 {
+      width: 65%;
+      top: 20%;
+      left: 17%;
+      height: auto;
+      transform: none;
+    }
+  
+    .ENJOY, .ENJOY1 {
+      text-align: center;
+      justify-content: center;
+    }
+  
+    .head-a, .head-b {
+      margin-left: 0;
+      text-align: center;
+    }
+  
+    .QUESTIONS {
+      margin: 10px 0;
+    }
+  
+    .links {
+      grid-template-columns: 1fr 1fr;
+    }
+  
+    .call {
+      text-align: center;
+      margin-left: 0;
+    }
+  }
+  
+  
+  
+  /* Phones (max-width: 767px) */
+  @media screen and (max-width: 767px) {
+    .top {
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+    }
+  
+    .headbutton {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .membership h1,
+    .membership h2,
+    .membership h3 {
+      font-size: 1.2rem;
+      padding: 0 10px;
+    }
+  
+    .buttons {
+      flex-direction: column;
+    }
+  
+    .Email, .Started {
+      width: 90%;
+    }
+  
+    .QUESTIONS {
+      font-size: 16px;
+    }
+  
+    .final {
+      padding: 30px 10px;
+    }
+  
+    .links {
+      grid-template-columns: 1fr;
+      text-align: center;
+    }
+  
+    .vdo1, .vdo2 {
+        position: absolute;
+        top: 12%;
+        left: 14%;
+        width: 72%;
+        height: 60%;
+        z-index: 1;
+        pointer-events: none;
+        object-fit: cover;
+      }
+    
+      .tv-wrapper {
+        position: relative;
+        width: 100%;
+        max-width: 500px;
+        aspect-ratio: 16 / 9;
+        margin: 0 auto;
+      }
+    
+      .tv-wrapper img {
+        width: 100%;
+        height: auto;
+        z-index: 2;
+        position: relative;
+      }
+    }
+  
