@@ -65,6 +65,12 @@ body {
   margin-top: 1rem;
 }
 
+.started1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .Email {
   padding: 10px;
   font-size: 16px;
