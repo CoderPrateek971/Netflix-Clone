@@ -9,7 +9,7 @@ A fully responsive Netflix landing page clone built using only **HTML** and **CS
 - Background overlay with video alignment
 
 ## Screenshots
-![Desktop View](DesktopView)
+![Desktop View](DesktopandMobileView)
 ![Mobile View](MobileView)
 
 ## Author
