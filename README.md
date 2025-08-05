@@ -10,7 +10,7 @@ A fully responsive Netflix landing page clone built using only **HTML** and **CS
 
 ## Screenshots
 ![Desktop View](DesktopandMobileView)
-![Mobile View](MobileView)
+![Mobile View](DesktopandMobileView)
 
 ## Author
 [Prateek Garg](https://www.linkedin.com/in/prateek-garg-74b858325/)
